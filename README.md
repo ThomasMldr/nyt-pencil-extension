@@ -1,12 +1,7 @@
-# Dominion Tracker Extension
+# NYT Crossword Pencil Toggle
 
-A Chrome extension for [Dominion Online](https://dominion.games/).
+A Chrome extension for the New York Times crossword site.
 
 ---
 
-Currently:
-- Does nothing. Logs a statement to console
-
-Eventually:
-
-- Displays each player's deck
+Press the Left Shift key to toggle the pencil tool.

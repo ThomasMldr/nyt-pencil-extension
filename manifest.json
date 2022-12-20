@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
 
-  "name": "Dominion Tracker",
-  "description": "Hello World! This is the Chrome extension for Dominion Tracker.",
+  "name": "NYT Crossword Pencil Toggle",
+  "description": "On the New York Times' Crossword site, press the Left Shift key to toggle the pencil tool.",
   "version": "1.0",
 
   "icons": {
@@ -23,7 +23,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://dominion.games/*"
+        "https://www.nytimes.com/crosswords/game/*"
       ],
       "js": ["content-script.js"]
     }
