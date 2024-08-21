@@ -23,7 +23,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.nytimes.com/crosswords/game/*"
+        "https://www.nytimes.com/crosswords/game/*",
+        "https://www.nytimes.com/puzzles/acrostic/*"
       ],
       "js": ["content-script.js"]
     }
