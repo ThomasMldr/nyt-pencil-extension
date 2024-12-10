@@ -4,7 +4,10 @@
   "name": "NYT Crossword Pencil Toggle",
   "description": "On the New York Times' Crossword site, press the Left Shift key to toggle the pencil tool.",
   "version": "1.0",
-
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
   "icons": {
     "16": "favicon/favicon-16x16.png",
     "32": "favicon/favicon-32x32.png",
@@ -31,6 +34,7 @@
   ],
   "permissions": [
    "activeTab",
-   "scripting"
+   "scripting",
+   "storage"
   ]
 }
