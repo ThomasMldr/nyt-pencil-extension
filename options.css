@@ -1,0 +1,45 @@
+.options-menu {
+  width: 240px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.title {
+  margin: 0;
+}
+
+.option {
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-size: 14px;
+}
+.select {
+}
+
+.save-button {
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: #34a8eb;
+
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #76c6f4;
+}
+
+.save-status {
+  margin: 0;
+}

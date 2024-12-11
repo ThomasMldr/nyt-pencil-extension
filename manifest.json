@@ -2,7 +2,7 @@
   "manifest_version": 3,
 
   "name": "NYT Crossword Pencil Toggle",
-  "description": "On the New York Times' Crossword site, press the Left Shift key to toggle the pencil tool.",
+  "description": "On the New York Times' Crossword site, press the Left Shift key to toggle the pencil tool. The key can be changed in the extention's options.",
   "version": "1.0",
   "options_ui": {
     "page": "options.html",
@@ -14,10 +14,9 @@
     "48": "favicon/favicon-64x64.png",
     "128": "favicon/favicon-128x128.png"
   },
-
   "action": {
-   "default_popup": "popup/popup.html",
-   "default_title": "This is some placeholder tooltip text when hovering the extension icon"
+   "default_popup": "options.html",
+   "default_title": "Click to see options"
   },
   "background": {
     "service_worker": "serviceWorker.js",
@@ -26,8 +25,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.nytimes.com/crosswords/game/*",
-        "https://www.nytimes.com/puzzles/acrostic/*"
+        "https://www.nytimes.com/crosswords/game/*"
       ],
       "js": ["content-script.js"]
     }
